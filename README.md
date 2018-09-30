@@ -20,8 +20,8 @@ Additional steps I propose should fix +99% of cracking noise with small (additio
 2. Carefully perform steps mentioned in [Kevin Shroff's awesome guide](https://github.com/kevinshroff/KSMRD-Modded-Realtek-Audio-Drivers/releases). I've used 3.0.2 version of his modified drivers.
 3. Make sure (again) you disabled Waves MaxxAudio Service Application and Realtek HD Audio Universal Service in startup tap of Task Manager.
 4. Stop and Turn of Waves Audio Serices (fixes audio watching Youtube clips) and Realtek Audio Universal Service (fixes audio during Cinebench benchmarking and other loads) in Windows Services Manager.
-5. Check if after reboot any key you were to look for (and change to) has reverted to default value and if so replace it with ff ff ff ff instead of ff ff ff. [Info](http://www.surfacetablethelp.com/2017/11/fix-sound-popping-issues-in-windows-10-fall-creators-update.html).  
-   On my laptop it was: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e96c-e325-11ce-bfc1-08002be10318}\0012\PowerSettings
+5. Check if after reboot any key you were to look for (and change to) has reverted to default value and if so replace it with ff ff ff ff instead of ff ff ff.  Source: [Fix sound popping issues in Windows 10 Fall Creators Update](http://www.surfacetablethelp.com/2017/11/fix-sound-popping-issues-in-windows-10-fall-creators-update.html), [backup hosted by web.archive.org](https://web.archive.org/web/20180930210142/http://www.surfacetablethelp.com/2017/11/fix-sound-popping-issues-in-windows-10-fall-creators-update.html).  
+   On my laptop it was: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e96c-e325-11ce-bfc1-08002be10318}\0012\PowerSettings`
 6. Reboot.
 7. Test if issue is fixed.
 
