@@ -16,7 +16,7 @@ Additional steps I propose should fix +99% of cracking noise with small (additio
 * Backup (in case you mess up something)
 
 ## Steps
-1. If your Windows 10 is bloated or you are using stock Dell's Windows installation. Just make bootable Windows 10 (I recommend latest avaliable build iso, there are plenty guides online) usb drive (I recommend (rufus)[http://rufus.akeo.ie/]), after getting drivers for wifi and RAID (or just switch do AHCI mode like I did) to be safe and make clean install.
+1. If your Windows 10 is bloated or you are using stock Dell's Windows installation. Just make bootable Windows 10 (I recommend latest avaliable build iso, there are plenty guides online) usb drive (I recommend [rufus](http://rufus.akeo.ie)), after getting drivers for wifi and RAID (or just switch do AHCI mode like I did) to be safe and make clean install.
 2. Carefully perform steps mentioned in [Kevin Shroff's awesome guide](https://github.com/kevinshroff/KSMRD-Modded-Realtek-Audio-Drivers/releases). I've used 3.0.2 version of his modified drivers.
 3. Make sure (again) you disabled Waves MaxxAudio Service Application and Realtek HD Audio Universal Service in startup tap of Task Manager.
 4. Stop and Turn of Waves Audio Serices (fixes audio watching Youtube clips) and Realtek Audio Universal Service (fixes audio during Cinebench benchmarking and other loads) in Windows Services Manager.
