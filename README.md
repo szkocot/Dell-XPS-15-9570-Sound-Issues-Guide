@@ -1,6 +1,6 @@
 # My guide for fixing Dell XPS 15 9570 Sound Issues (probably will work for simillar laptops)
 
-# Introduction
+## Introduction
 
 I bought my Dell XPS 15 mainy because I need powerfull machine for work.  
 During my initial days of usage I decided to install fresh Windows 10 and install only essential Dell software and drivers and try to optimize it a bit, so I can get a best experience.  
