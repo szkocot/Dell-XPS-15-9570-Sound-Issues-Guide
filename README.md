@@ -25,6 +25,10 @@ Additional steps I propose should fix +99% of cracking noise with small (additio
 6. Reboot.
 7. Test if issue is fixed.
 
+## 01.11.2018 Update
+This doesn't seem to work anymore after a month of usage. I didn't found fully working solution. I started to hear cracking sound yesterday and it doesn't seeem to be related to Win10 October update (because audio was okay for few weeks or so).
+
+
 ## Big thanks to
 * [Kevin Shroff](https://github.com/kevinshroff) for drivers and guide
 * [Reddit](https://www.reddit.com/r/dell) for great Dell/XPS community
